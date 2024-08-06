@@ -17,14 +17,15 @@ The method inherently enables the generation of counterfactual explanations (CEs
 
 ## Citations
 If you use this code or find our work useful, please cite our paper:
-``
+
+```bibtex
 @article{atad2024counterfactual,
-  title={Counterfactual Explanations for Medical Image Classification and Regression using Diffusion Autoencoder},
-  author={Matan Atad and David Schinz and Hendrik Moeller and Robert Graf and Benedikt Wiestler and Daniel Rueckert and Nassir Navab and Jan S. Kirschke and Matthias Keicher},
-  journal={arXiv preprint arXiv:2408.01571},
-  year={2024}
+    title={Counterfactual Explanations for Medical Image Classification and Regression using Diffusion Autoencoder}, 
+    author={Matan Atad and David Schinz and Hendrik Moeller and Robert Graf and Benedikt Wiestler and Daniel Rueckert and Nassir Navab and Jan S. Kirschke and Matthias Keicher},
+    journal={arXiv preprint arXiv:2408.01571},
+    year={2024}
 }
-``
+```
 
 ## Acknowledgment
 This work uses the DAE implementation provided by the original authors. For more details and the original codebase, visit the [official DAE repository](https://github.com/preechakul/DAE).
