@@ -16,14 +16,20 @@ Experiments across various medical imaging datasets demonstrate the method’s a
 The method inherently enables the generation of counterfactual explanations (CEs), visualizing the model's representation corresponding to regression grades and smooth progressions in between.
 
 ## Citations
-If you use this code or find our work useful, please cite our paper:
+If you use this code or find our work useful, please cite our [paper](https://www.melba-journal.org/papers/2024:024.html):
 
 ```bibtex
-@article{atad2024counterfactual,
-    title={Counterfactual Explanations for Medical Image Classification and Regression using Diffusion Autoencoder}, 
-    author={Matan Atad and David Schinz and Hendrik Moeller and Robert Graf and Benedikt Wiestler and Daniel Rueckert and Nassir Navab and Jan S. Kirschke and Matthias Keicher},
-    journal={arXiv preprint arXiv:2408.01571},
-    year={2024}
+@article{melba:2024:024:atad,
+    title = "Counterfactual Explanations for Medical Image Classification and Regression using Diffusion Autoencoder",
+    author = "Atad, Matan and Schinz, David and Moeller, Hendrik and Graf, Robert and Wiestler, Benedikt and Rueckert, Daniel and Navab, Nassir and Kirschke, Jan S. and Keicher, Matthias",
+    journal = "Machine Learning for Biomedical Imaging",
+    volume = "2",
+    issue = "iMIMIC 2023 special issue",
+    year = "2024",
+    pages = "2103--2125",
+    issn = "2766-905X",
+    doi = "https://doi.org/10.59275/j.melba.2024-4862",
+    url = "https://melba-journal.org/2024:024"
 }
 ```
 
