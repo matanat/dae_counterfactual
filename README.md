@@ -15,7 +15,7 @@ Experiments across various medical imaging datasets demonstrate the method’s a
 
 The method inherently enables the generation of counterfactual explanations (CEs), visualizing the model's representation corresponding to regression grades and smooth progressions in between.
 
-**Running on your dataset**
+## Running on your dataset
 
 1. Training the DAE
     1. Add your dataset to the make_dataset() function in config.py, similar to how we handled our datasets. This should include any transformations and specific augmentations. 
