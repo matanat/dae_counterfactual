@@ -17,11 +17,12 @@ The method inherently enables the generation of counterfactual explanations (CEs
 
 ## Running on your dataset
 
-1. Training the DAE
+1. Setup the conda environment using the requirements.txt file.
+2. Training the DAE
     1. Add your dataset to the make_dataset() function in config.py, similar to how we handled our datasets. This should include any transformations and specific augmentations. 
     2. Create a copy of the training template in templates.py, e.g., copy brats64_autoenc() for 2d input. Make sure to update conf.data_name and conf.dataset_img_key. For 3d input, updading the underlying model architecture might be required, as we did in retina128_autoenc_130M().
     3. Finally, create a run script, e.g., by copying our run_brats64.py and run it. The trained DAE checkpoint would be saved to checkpoints/{conf.name}/
-2. Infer semantic latents, train classifier and create counterfactuals- we will use manipuldate_spider.ipynb as an example.
+3. Infer semantic latents, train classifier and create counterfactuals- we will use manipuldate_spider.ipynb as an example.
     1. Use the trained DAE to encode all the dataset to sematic latents by calling model.encode() (cell "save prepcoessed latents").
     2. Train a binary classifier/regressor of your choice on these latents (cells "Binary classifier" and "Regression on distance from decision boundary").
     3. Create the counterfactuals (cells under "Editing images")
@@ -49,4 +50,4 @@ If you use this code or find our work useful, please cite our [paper](https://ww
 ```
 
 ## Acknowledgment
-This work uses the DAE implementation provided by the original authors. For more details and the original codebase, visit the [official DAE repository](https://github.com/preechakul/DAE).
+This work uses the DAE implementation provided by the original authors. For more details and the original codebase, visit the [official DAE repository](https://github.com/phizaz/diffae).
