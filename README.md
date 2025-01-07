@@ -15,6 +15,12 @@ Experiments across various medical imaging datasets demonstrate the method’s a
 
 The method inherently enables the generation of counterfactual explanations (CEs), visualizing the model's representation corresponding to regression grades and smooth progressions in between.
 
+## Pretrained model checkpoints
+We provide checkpoints for DAE models trained on the following datasets:
+1. Spider [checkpoint](https://syncandshare.lrz.de/getlink/fiDQ35yezxLUF89kaEKRSp/spider64_epoch%3D4333-step%3D39000.ckpt)
+2. BraTS [checkpoint](https://syncandshare.lrz.de/getlink/fiGTfkkU1g4nTYyNU9Gu6G/brats64_epoch%3D123999-step%3D372000.ckpt)
+3. RetinaMNIST [checkpoint](https://syncandshare.lrz.de/getlink/fi3YWUuUmWxvvKumf23AMo/retina128_epoch%3D9259-step%3D1250000.ckpt)
+
 ## Running on your dataset
 
 1. Setup the conda environment using the requirements.txt file.
